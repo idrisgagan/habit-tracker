@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/dashboard.tsx","./src/components/habitrow.tsx","./src/lib/dates.ts","./src/lib/streaks.ts","./src/lib/types.ts","./src/lib/usehabits.ts","./vite.config.ts"],"version":"5.9.3"}
