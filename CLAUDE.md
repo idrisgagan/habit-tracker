@@ -14,6 +14,21 @@ npm run preview  # serve the built bundle
 There is no test runner, linter, or CI. `npm run build` is the only automated
 check — it typechecks the whole project via `tsc -b`.
 
+## Git workflow
+
+Commit and push to `origin/main` as work completes, without stopping to ask.
+This is a standing instruction from the repo owner: the point is a durable
+backup and a rollback path, so nothing should sit uncommitted in the working
+tree at the end of a task.
+
+- One logical change per commit, in a working state.
+- Messages explain *why*, not just what.
+- Push after committing — a local commit is not a backup.
+
+Still confirm explicitly before anything hard to reverse: force-push, history
+rewrite, branch deletion, making the repo public, or adding collaborators. The
+standing grant covers ordinary commit-and-push only.
+
 ## Architecture
 
 Local-first habit tracker: React 19 + TypeScript + Vite. No server, no accounts,
